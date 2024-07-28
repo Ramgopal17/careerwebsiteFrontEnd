@@ -1,0 +1,145 @@
+.wpo-blog-highlights-section {
+  padding: 25px 0;
+}
+
+.wpo-section-title {
+  margin-bottom: 30px;
+}
+
+.wpo-blog-items .wpo-blog-item {
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.wpo-blog-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.wpo-blog-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.wpo-blog-highlights-section .wpo-blog-highlights-wrap .wpo-blog-item {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border: 1px solid #eeeeee;
+}
+
+.wpo-blog-content ul {
+  margin: 0;
+  padding: 0;
+
+  align-items: center;
+  font-size: 14px;
+  color: #888;
+}
+
+.wpo-blog-content ul li:not(:last-child):after {
+  padding-top: 15px;
+
+  margin: 10px 8px;
+}
+
+.wpo-blog-content p {
+  font-size: 16px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination .pagination-item {
+  margin: 10 5px !important;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination .pagination-item.active {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.list {
+  list-style: none !important;
+}
+.apply-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: transform 0.3s ease;
+  padding-right: 10px;
+}
+
+.apply-button span {
+  margin-right: 5px;
+}
+
+.apply-button:hover {
+  transform: translateX(5px);
+}
+
+.arrow-icon {
+  transition: transform 0.3s ease;
+  position: absolute;
+  right: 0;
+
+  /* margin-top: 5px; */
+  margin-right: 10px !important;
+  padding-left: 3px !important;
+}
+
+.apply-button:hover .arrow-icon {
+  transform: translateX(3px);
+}
+
+.wpo-blog-pg-section .entry-media img {
+  width: 100%;
+  border-radius: 10px !important;
+}
+.wpo-blog-pg-section .entry-meta {
+  list-style: none;
+  overflow: hidden;
+  margin: 15px 0 !important;
+}
+/* careerList.css */
+
+.no-data-icon {
+  font-size: 36px;
+  display: block;
+}
+
+.no-data-text {
+  font-size: 20px;
+  color: #fff !important;
+  line-height: normal;
+}
+@media screen and(max-width:768px) {
+  .no-data-text {
+    font-size: 18px !important;
+    color: #fff !important;
+    line-height: normal !important;
+  }
+}
+
+.bs-footer__top-social a {
+  font-size: 16px;
+  width: 35px;
+  height: 35px;
+  background-color: var(--tp-common-white);
+  border: 2px solid var(--tp-border-6);
+  text-align: center;
+  display: inline-flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-right: 5px;
+  border-radius: 8px;
+}

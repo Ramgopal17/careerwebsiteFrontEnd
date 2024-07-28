@@ -1,0 +1,37 @@
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-width: 1px !important;
+}
+table {
+  margin-bottom: 40px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.small-screen {
+  font-size: 40px;
+}
+
+.large-screen {
+  font-size: 50px;
+}
+.wpo-blog-content ul {
+  list-style: disc;
+  margin: 5px !important;
+  padding-left: 10px !important;
+  align-items: center;
+  font-size: 16px !important;
+}
+.wpo-blog-single-section .entry-meta {
+  list-style: none;
+  overflow: hidden;
+  margin: 0 !important;
+  padding: 10px;
+  background-color: #2f3333;
+}

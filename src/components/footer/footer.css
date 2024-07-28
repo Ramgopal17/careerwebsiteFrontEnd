@@ -1,0 +1,9 @@
+@media (min-width: 991px) and (max-width: 1400px) {
+    .certificateImg {
+        display: flex !important;
+        justify-content: center !important;
+        max-height: 40px !important;
+        align-items: center !important;
+      
+    }
+  }

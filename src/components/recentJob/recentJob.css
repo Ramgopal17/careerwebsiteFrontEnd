@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
+p,
+h1,
+h2,
+h3,
+h4,
+Link,
+span {
+  font-family: "Roboto", sans-serif !important;
+}
+.wpo-blog-highlights-section {
+  padding: 40px 0;
+}
+.wpo-blog-content ul {
+  list-style: none !important;
+  padding-left: 10px !important;
+  align-items: center;
+  font-size: 14px;
+  color: #888;
+}
+.button-style {
+  display: flex;
+  justify-content: center;
+}
+.btn-coloring:hover {
+  background-color: #09552d;
+}
+.btn-coloring {
+  background-color: #086d38;
+  border-radius: 4px;
+}
+.wpo-blog-sponsored-section
+  .wpo-blog-sponsored-wrap
+  .wpo-blog-item
+  .wpo-blog-content
+  ul
+  li:last-child {
+  padding-left: 0px !important;
+  position: fixed !important;
+}
+.wpo-blog-img {
+  aspect-ratio: 1.5/1 !important;
+}
+.wpo-blog-items .wpo-blog-item {
+  margin-bottom: 30px;
+  border-radius: 0px !important;
+}
+
+/* Default styles */
+.tp-lasted-blog .it-blog-info {
+  border-radius: 8px !important;
+  border: 2px solid #f6f6f6;
+  /* min-height: 10rem; */
+}
+.tp-lasted-blog .it-blog-info:hover {
+  border-radius: 8px !important;
+  border: 2px solid #086d38;
+  /* min-height: 10rem; */
+}
+
+@media (max-width: 768px) {
+  .tp-lasted-blog .it-blog-info {
+    height: 15rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tp-lasted-blog .it-blog-info {
+    height: 8rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .tp-lasted-blog .it-blog-info {
+    height: auto;
+    padding: 20px, 0px !important;
+  }
+}
+.cutoffText {
+  --max-lines: 2;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--max-lines);
+}
+.cutoffText4 {
+  --max-lines: 1;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--max-lines);
+}
+#cutoffText {
+  --max-lines: 2;
+  display: -webkit-box;
+  object-fit: cover;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--max-lines);
+}
+#cutoffTextlist {
+  --max-lines: 5;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--max-lines);
+}
+
+.ca-service__item-title {
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  color: #032b5f !important;
+}
+
+.it-blog-date {
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+
+  color: var(--tp-grey-1);
+  padding: 11px 19px;
+  border-bottom: 4px solid var(--tp-theme-orange);
+  box-shadow: 0px -16px 32px 0px rgba(0, 0, 0, 0.06);
+}
+@media screen and (max-width: 768px) {
+  .it-blog-date {
+    padding: 8px 14px !important;
+  }
+}
+
+/* -------------------load more button related css -------------------------*/
+
+/* .tp-common-btn {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+
+  color: var(--tp-common-white);
+  padding: 12px 15px !important;
+  border-radius: 8px;
+  display: inline-block;
+  background-color: #3756f7 !important;
+}
+#getButton{
+  max-width: 207px;
+  padding: 18px 29px !important;
+} */
+
+.tp-common-btn:hover,
+.tp-pf-btn-group button.active {
+  color: #fff;
+  background-color: #09552d !important;
+  overflow: hidden;
+}
+
+.loadMoreDiv .tp-common-btn span svg:first-child,
+.loadMoreDiv.tp-common-btn span i:first-child {
+  position: static !important;
+  left: 0 !important;
+  top: 10px !important;
+}
+
+.button-space {
+  display: flex !important;
+  justify-content: center !;
+  align-items: center !important;
+  padding: 0px 0px !important;
+}
+
+@media (max-width: 1068px) {
+  .p-absolute {
+    /* Adjust styles for screens up to 768px width */
+    bottom: 20px;
+    max-height: 3rem;
+    min-height: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .p-absolute {
+    /* Adjust styles for screens up to 768px width */
+    bottom: 20px;
+    max-height: 60px;
+    min-height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .p-absolute {
+    bottom: 30px;
+    max-height: 40px;
+    min-height: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+  .cardSpacing {
+    padding-top: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .cardSpacing {
+    padding-top: 35px;
+    /* border:1px solid red; */
+    /* margin:10px */
+  }
+}
+.tp-lasted-blog .it-portfolio-item__btn {
+  margin-top: 10px !important;
+}
+
+.tp-lasted-blog .it-portfolio-item__btn:hover {
+  background-color: #09552d;
+}

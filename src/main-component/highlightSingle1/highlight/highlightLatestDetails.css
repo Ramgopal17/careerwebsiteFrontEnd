@@ -1,0 +1,152 @@
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-width: 1px !important;
+}
+.wpo-blog-single-section .more-posts {
+  overflow: hidden;
+  border: 2px solid #1e2222;
+  padding: 0 25px;
+  margin-top: 3vh;
+}
+
+
+.stripColor {
+  text-align: center;
+  background-color: #1e2222;
+  min-height: 10rem !important;
+  padding: 10px !important;
+}
+.blocks {
+  max-width: 1170px !important;
+  font-size: 36px;
+  margin: 0 auto;
+  display: block;
+
+  color: #c9c9ce;
+
+  width: 100%;
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+  .stripColor {
+    background-color: #3d3d3d;
+    min-height: 10rem !important;
+    padding: 20px !important;
+  }
+  .blocks {
+   
+    max-width: 1000px;
+    font-size: 24px;
+    margin: 0 auto;
+    display: block;
+    font-weight: bold;
+    color: #c9c9ce;
+    width: 100%;
+  }
+}
+
+.apply-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.apply-form-wrapper {
+  position: relative;
+}
+
+.apply-form-button {
+  border: none;
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.apply-form-button:hover {
+  background-color: #e0e0e0;
+}
+
+.apply-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.apply-form-popup {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  background-color: #333 !important;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+
+  height: fit-content !important;
+}
+.close-form-button {
+  border: none;
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.close-form-button:hover {
+  background-color: #e0e0e0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.small-screen {
+  font-size: 40px;
+}
+
+.large-screen {
+  font-size: 80px;
+}
+.wpo-blog-single-section .entry-meta {
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 10px !important;
+}
+.listing ul li {
+  list-style: disc !important;
+}
+.listing ul {
+  list-style: disc !important;
+  color: black !important;
+}

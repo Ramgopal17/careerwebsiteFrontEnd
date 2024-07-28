@@ -1,0 +1,11 @@
+.file-upload {
+    border: 2px dashed #aaa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dragging {
+    border-color: #007bff;
+    background-color: #f0f8ff;
+  }
+  
